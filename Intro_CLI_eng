@@ -29,3 +29,60 @@ GitHub CLI (gh) is specifically designed to work with GitHub. It allows the use 
    **Made specifically for GitHub**: Interact with nearly every features in github
 
 **Customisation and extensions**: Extend CLI functionnality with aliases for custom commands.
+
+## How to install github CLI ?
+
+**Windows**
+
+With Scoop **scoop  install gh**
+
+With Chocolatey **choco  install gh**
+
+Manual installation
+
+    Download the .msi file from the releases page of GitHub CLI, 
+Launch it and follow the instructions.
+
+**MacOS**
+
+with Homebrew **brew install gh**
+
+with MacPorts
+
+     Download the.pkg file file from the
+   releases page of GitHub CLI, 
+   Launch it and follow the instructions
+
+**sudo port install gh**
+
+**Linux**
+
+In Debian/Ubuntu (et dérivés) 
+with apt
+
+**sudo apt update**
+
+**sudo apt install gh**
+
+In Fedora avec dnf 
+    
+    sudo dnf install gh
+
+In CentOS 
+
+with yum 
+
+    sudo yum install gh
+
+In Arch Linux 
+
+with pacman
+
+    Download the .tar.gz file from the releases page of GitHub CLI, 
+Launch it and follow the instructions.
+
+    sudo pacman -S github-cli
+
+Checking for installation
+
+    gh --version    
