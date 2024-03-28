@@ -1,0 +1,9 @@
+# Introduction to GitHub CLI
+
+GitHub CLI is a command-line tool meant to help you use github directly from your terminal. With CLI you can use every feature available on github, but faster and more efficiently. CLI helps you stay on track and avoiding context switching (loss of focus).
+
+
+### *What's the difference between GitHub CLI and Git on the command line ?*
+
+
+The Git command line interface (git) allows you to work with a local or remote Git repository. The remote repository may be hosted on GitHub or it may be hosted by another service.
