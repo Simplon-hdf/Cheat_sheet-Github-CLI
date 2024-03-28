@@ -22,3 +22,47 @@ sudo dnf install 'dnf-command(config-manager)'
 sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
 sudo dnf install gh
 ```
+Fedora, CentOS, Red Hat Enterprise Linux (dnf)
+
+Install from our package repository for immediate access to latest releases:
+```
+sudo dnf install 'dnf-command(config-manager)'
+sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo dnf install gh
+```
+Alternatively, install from the community repository:
+```
+sudo dnf install gh
+```
+Upgrade:
+```
+sudo dnf update gh
+```
+Amazon Linux 2 (yum)
+```
+type -p yum-config-manager >/dev/null || sudo yum install yum-utils
+sudo yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo yum install gh
+```
+Mise à niveau:
+```
+sudo yum update gh
+```
+openSUSE/SUSE Linux (zypper)
+
+Install:
+```
+sudo zypper addrepo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo zypper ref
+sudo zypper install gh
+```
+Upgrade:
+
+```
+sudo zypper ref
+sudo zypper update gh
+```
+
+
+
+
