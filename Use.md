@@ -34,5 +34,10 @@ Enter <code> gh repo create </code> to create a repository.<br>
   ```-p```,```--template <repository>```|Make the new repository based on template repository.
   ```-t```,```team <name>```| The name of the organization team to be granted access
   ```-c```,```--clone```| Clone the new repository to the current directory
+<br>
+
++ ```gh repo fork [<repository>] [flag]``` : to Fork a repository
++ ```gh repo clone [<repository>] [<directory>]``` : Clone a repository
++ ```gh repo view [<repository>] [flag]``` : view a repository
 
 
