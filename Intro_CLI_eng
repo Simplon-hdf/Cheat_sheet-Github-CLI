@@ -2,8 +2,30 @@
 
 GitHub CLI is a command-line tool meant to help you use github directly from your terminal. With CLI you can use every feature available on github, but faster and more efficiently. CLI helps you stay on track and avoiding context switching (loss of focus).
 
-
 ### *What's the difference between GitHub CLI and Git on the command line ?*
 
-
 The Git command line interface (git) allows you to work with a local or remote Git repository. The remote repository may be hosted on GitHub or it may be hosted by another service.
+
+GitHub CLI (gh) is specifically designed to work with GitHub. It allows the use of the command line to interact with GitHub in many ways. CLI includes features such as:
+
+    View, create, clone, and fork repositories
+
+    Create, close, edit, and view issues and pull requests
+
+    Review, diff, and merge pull requests
+
+    Run, view, and list workflows
+
+    Create, list, view, and delete releases
+
+    Create, edit, list, view, and delete gists
+
+    List, create, delete.
+    
+### *Why use github CLI ?*
+
+   **Increased productivity**: complete common tasks using less commands and without quitting your terminal.
+
+   **Made specifically for GitHub**: Interact with nearly every features in github
+
+**Customisation and extensions**: Extend CLI functionnality with aliases for custom commands.
