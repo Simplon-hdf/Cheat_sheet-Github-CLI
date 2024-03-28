@@ -1,0 +1,88 @@
+# Introduction to GitHub CLI
+
+GitHub CLI is a command-line tool meant to help you use github directly from your terminal. With CLI you can use every feature available on github, but faster and more efficiently. CLI helps you stay on track and avoiding context switching (loss of focus).
+
+### *What's the difference between GitHub CLI and Git on the command line ?*
+
+The Git command line interface (git) allows you to work with a local or remote Git repository. The remote repository may be hosted on GitHub or it may be hosted by another service.
+
+GitHub CLI (gh) is specifically designed to work with GitHub. It allows the use of the command line to interact with GitHub in many ways. CLI includes features such as:
+
+    View, create, clone, and fork repositories
+
+    Create, close, edit, and view issues and pull requests
+
+    Review, diff, and merge pull requests
+
+    Run, view, and list workflows
+
+    Create, list, view, and delete releases
+
+    Create, edit, list, view, and delete gists
+
+    List, create, delete.
+    
+### *Why use github CLI ?*
+
+   **Increased productivity**: complete common tasks using less commands and without quitting your terminal.
+
+   **Made specifically for GitHub**: Interact with nearly every features in github
+
+**Customisation and extensions**: Extend CLI functionnality with aliases for custom commands.
+
+## How to install github CLI ?
+
+**Windows**
+
+With Scoop **scoop  install gh**
+
+With Chocolatey **choco  install gh**
+
+Manual installation
+
+    Download the .msi file from the releases page of GitHub CLI, 
+Launch it and follow the instructions.
+
+**MacOS**
+
+with Homebrew **brew install gh**
+
+with MacPorts
+
+     Download the.pkg file file from the
+   releases page of GitHub CLI, 
+   Launch it and follow the instructions
+
+**sudo port install gh**
+
+**Linux**
+
+In Debian/Ubuntu (et dérivés) 
+with apt
+
+**sudo apt update**
+
+**sudo apt install gh**
+
+In Fedora avec dnf 
+    
+    sudo dnf install gh
+
+In CentOS 
+
+with yum 
+
+    sudo yum install gh
+
+In Arch Linux 
+
+with pacman
+
+    Download the .tar.gz file from the releases page of GitHub CLI, 
+Launch it and follow the instructions.
+
+    sudo pacman -S github-cli
+
+Checking for installation
+
+    gh --version    
