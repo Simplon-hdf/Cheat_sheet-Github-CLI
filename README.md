@@ -29,3 +29,44 @@
     ```-b, --branch <string>``` | View a specific branch of the repository
     ```-w, --web``` | Open a repository in the browser
 <br>
+
+### **Managing issues**
+
+- ```gh issue create [flags]``` : Create an issue
+
+    Options | effect 
+    --- | --- 
+    ```-t, --title <string>``` | Supply a title
+    ```-l, --label <name>``` | Add labels by name
+    ```-a, --assignee <login>``` | Assign people by their login. Use "@me" to self-assign
+<br>
+
+- ```gh issue list [flags]``` : List issues
+
+    Options | effect 
+    --- | --- 
+    ```-a, --assignee <string>``` | Filter by assignee
+    ```-A, --author <string>``` | Filter by author
+    ```-s, --state <string> (default "open")``` | Filter by state: {open\|closed\|all}
+    ```-l, --label <strings>``` | Filter by label
+<br>
+
+- ```gh issue status``` : Show status of relevant issues
+- ```gh issue view {<number> | <url>} [flags]``` : View a specific issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comments``` | View issue comments
+<br>
+
+- ```gh issue close {<number> | <url>} [flags]``` : Close issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a closing comment
+    ```-r, --reason <string>``` | Reason for closing
+<br>
+
+- ```gh issue reopen {<number> | <url>} [flags]``` : Reopen an issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a reopening comment
+<br>
