@@ -96,7 +96,7 @@
 - ```gh pr view {<number> | <url> | <branch>} [flags]``` : View a specific pull request
     Options | Description 
     --- | --- 
-    ```-c```, ``` --comments``` | View issue comments
+    ```-c```, ``` --comments``` | View pull request comments
 <br>
 
 - ```gh pr checkout {<number> | <url> | <branch>}``` : Check out a pull request
