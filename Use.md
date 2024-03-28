@@ -4,7 +4,7 @@ GitHub CLI (**gh**) is a command-line tool that brings GitHub functionality to y
 
 ## Basic command CLI
 
-### **Authentification**
+### **Authentification :**
 
 Enter <code>gh auth login</code> and follow the prompts to log in using your GitHub ID
 
@@ -22,8 +22,17 @@ gh auth login <flag>
 <br>
 You can enter <code>gh auth logout</code> to log out.
 
-### **Managing Repository**
+### **Managing Repository :**
 
-Enter <code> gh repo create <code> to create a repository
+Enter <code> gh repo create </code> to create a repository.<br>
+``` gh repo create ``` : create a repository 
+
+<img src="assets/Use_img/Gh_repo_create.png" alt="Gh_repo_create">  
+
+  Options | Descriptions
+  --- | ---
+  ```-p```,```--template <repository>```|Make the new repository based on template repository.
+  ```-t```,```team <name>```| The name of the organization team to be granted access
+  ```-c```,```--clone```| Clone the new repository to the current directory
 
 
