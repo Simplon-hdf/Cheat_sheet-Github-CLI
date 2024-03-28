@@ -70,3 +70,48 @@
     --- | --- 
     ```-c, --comment <string>``` | Leave a reopening comment
 <br>
+
+### **Managing pull requests**
+
+- ```gh pr create [flags]``` : Create an pull request
+
+    Options | effect 
+    --- | --- 
+    ```-B, --base <branch>``` | The branch into which you want your code merged
+    ```-f, --fill``` | Use commit info for title and body
+    ```-l, --label <name>``` | Add labels by name
+<br>
+
+- ```gh pr list [flags]``` : List pull request
+
+    Options | effect 
+    --- | --- 
+    ```-a, --assignee <string>``` | Filter by assignee
+    ```-A, --author <string>``` | Filter by author
+    ```-s, --state <string> (default "open")``` | Filter by state: {open\|closed\|merged\|all}
+    ```-l, --label <strings>``` | Filter by label
+<br>
+
+- ```gh pr status``` : Show status of relevant pull request
+- ```gh pr view {<number> | <url> | <branch>} [flags]``` : View a specific pull request
+    Options | effect 
+    --- | --- 
+    ```-c, --comments``` | View issue comments
+<br>
+
+- ```gh pr checkout {<number> | <url> | <branch>}``` : Check out a pull request
+- ```gh pr merge {<number> | <url> | <branch>}``` : Merge a pull request
+- ```gh pr diff {<number> | <url> | <branch>} [flags]``` : View changes in a pull request
+
+- ```gh pr close {<number> | <url> | <branch>} [flags]``` : Close pull request
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a closing comment
+    ```-d, --delete-branch``` | Delete the local and remote branch after close
+<br>
+
+- ```gh pr reopen {<number> | <url> | <branch>} [flags]``` : Reopen a pull request
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a reopening comment
+<br>
