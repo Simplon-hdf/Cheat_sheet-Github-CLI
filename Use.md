@@ -24,6 +24,6 @@ You can enter <code>gh auth logout</code> to log out.
 
 ### **Managing Repository**
 
-
+Enter <code> gh repo create <code> to create a repository
 
 

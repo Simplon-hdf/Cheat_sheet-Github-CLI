@@ -86,3 +86,35 @@ Launch it and follow the instructions.
 Checking for installation
 
     gh --version    
+
+
+### CONFIGURATION
+GitHub Authentication
+
+To connect to your github account through the commande line, use the following command :
+
+    gh auth login
+
+Follow the instructions on screen to authenticate.
+
+**Code Editor Configuration**
+
+ To set your editor for command line-operations, use the command:
+
+    **gh config set editor** followed by your editor's name
+
+**gh config set editor code**
+
+Alias
+
+To declare aliases for commands you use frequently, use the command:
+
+     gh alias set
+
+For example if you want to create an alias for the command
+
+     gh repo create
+You can do so using :
+
+
+    gh alias set create-repo `____`
