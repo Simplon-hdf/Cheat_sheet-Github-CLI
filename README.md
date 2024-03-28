@@ -115,3 +115,17 @@
     --- | --- 
     ```-c```, ``` --comment <string>``` | Leave a reopening comment
 <br>
+
+### **Managing workflows**
+
+- ```gh workflow list [flags]``` : List workflow files, hiding disabled workflows by default
+
+    Options | Description 
+    --- | --- 
+    ```-a```, ``` --all``` | Include disabled workflows
+
+-```gh workflow view [<workflow-id> | <workflow-name> | <filename>] [flags]``` : View the summary of a workflow
+- ```gh workflow run [<workflow-id> | <workflow-name>]``` : execute a workflow
+- ```gh workflow enable [<workflow-id> | <workflow-name>]``` : Enable a workflow, allowing it to be run
+- ```gh workflow disable [<workflow-id> | <workflow-name>]``` : Disable a workflow, preventing it from running 
+<br>
