@@ -1,10 +1,10 @@
 ## Table des matières
 
-- [Intoduction](./Intro_CLI_fr)
+- [Intoduction](./Intro_CLI_fr.md)
 - [CheatSheet](./Cheat_sheet_fr.md)
 - [Installation](./installCLI_fr.md)
 - BaseUse
-    - [Authentication](#auth)
+    - [Authentification](#auth)
     - [Managing repositories](#repo)
     - [Managing issues](#issues)
     - [Managing pull requests](#pr)

@@ -6,7 +6,7 @@
 
 - [Intoduction](./Intro_CLI_fr.md)
 - CheatSheet
-    - [Authentfication](#auth)
+    - [Authentification](#auth)
     - [Gestion des dépôt](#depo)
     - [Gestion des issues](#issues)
     - [Gestion des pull requests](#pr)
