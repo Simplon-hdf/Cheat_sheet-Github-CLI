@@ -4,7 +4,7 @@
 
 ## Table of contents
 
-- [Intoduction](./Intro_CLI_eng)
+- [Intoduction](./Intro_CLI_eng.md)
 - CheatSheet
     - [Authentication](#auth)
     - [Managing repositories](#repo)

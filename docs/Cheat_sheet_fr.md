@@ -4,15 +4,15 @@
 
 ## Table des matières
 
-- [Intoduction](./Intro_CLI_fr)
+- [Intoduction](./Intro_CLI_fr.md)
 - CheatSheet
     - [Authentfication](#auth)
     - [Gestion des dépôt](#depo)
     - [Gestion des issues](#issues)
     - [Gestion des pull requests](#pr)
     - [Gestion des workflows](#workflows)
-- [Installation](./installCLI.md)
-- [Uses](./Use.md)
+- [Installation](./installCLI_fr.md)
+- [Uses](./Use_fr.md)
 
 # Cheat-sheet des commandes ```gh```
 
