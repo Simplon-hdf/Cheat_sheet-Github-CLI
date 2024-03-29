@@ -1,4 +1,7 @@
-# Comment installer Github CLI sur différents systèmes d'exploitation
+# Comment installer Github CLI sur différents systèmes d'exploitation 
+<img src="../assets/downloadpict.png" alt="Auth_exemple" width="20%" >
+<img src="../assets/installation&apos;slogo.jpg" alt="Auth_exemple" width="25%" >
+
 
 ## Systèmes d'exploitation
 - [Linux](#installation-de-gh-sur-linux-et-bsd)
