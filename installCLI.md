@@ -128,7 +128,7 @@ Upgrading can be done by updating the portage tree and then requesting an upgrad
 emerge --sync
 emerge -u github-cli
 ```
-![alt text](assets/installgh_in_kiss_nix_open.png)
+![kiss lunux's picture](assets/installgh_in_kiss_nix_open.png)
 
-![alt text](assets/installgh_in_Alpine_Voidpng.png)
+![Alpine linux's picture](assets/installgh_in_Alpine_Voidpng.png)
 
