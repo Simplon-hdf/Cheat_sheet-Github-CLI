@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Intoduction](./Intro_CLI_eng)
-- [README](./README.md)
+- [CheatSheet](./README.md)
 - [Installation](./installCLI.md)
 - BaseUse
     - [Authentication](#auth)
