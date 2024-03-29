@@ -11,8 +11,8 @@
     - [Gestion des issues](#issues)
     - [Gestion des pull requests](#pr)
     - [Gestion des workflows](#workflows)
-- [Installation](./installCLI.md)
-- [Uses](./Use.md)
+- [Installation](./installCLI_fr.md)
+- [Uses](./Use_fr.md)
 
 # Cheat-sheet des commandes ```gh```
 
