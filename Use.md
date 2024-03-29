@@ -1,10 +1,24 @@
-# **Base use of GitHub CLI**
+## Table of contents
+
+- [Intoduction](./Intro_CLI_eng)
+- BaseUse
+    - [Authentication](#auth)
+    - [Managing repositories](#repo)
+    - [Managing issues](#issues)
+    - [Managing pull requests](#pr)
+    - [Managing workflows](#workflows)
+- [Installation](./installCLI.md)
+- [Uses](./Use.md)
+
+
+
+  # **Base use of GitHub CLI**
 
 GitHub CLI (**gh**) is a command-line tool that brings GitHub functionality to your terminal.This GitHub operations <br> without interacting with the graphical interface and remaining focused on the terminal.
 
 ## Basic command CLI
 
-### **Authentification :**
+### <a id=auth></a> **Authentification :**
 
 Enter <code>gh auth login</code> and follow the prompts to log in using your GitHub ID
 
@@ -22,7 +36,7 @@ gh auth login <flag>
 <br>
 You can enter <code>gh auth logout</code> to log out.
 
-### **Managing Repository :**
+### <a id=repo></a> **Managing Repository :**
 
 Enter <code> gh repo create </code> to create a repository.<br>
 ``` gh repo create ``` : create a repository 
