@@ -4,10 +4,15 @@
 
 ## Table of contents
 
+- [Intoduction](./Intro_CLI_eng)
 - CheatSheet
     - [Authentication](#auth)
     - [Managing repositories](#repo)
     - [Managing issues](#issues)
+    - [Managing pull requests](#pr)
+    - [Managing workflows](#workflows)
+- [Installation](./installCLI.md)
+- [Uses](./Use.md)
 
 # Cheat-sheet of ```gh``` commands
 
