@@ -71,5 +71,27 @@ Enter <code> gh repo create </code> to create a repository.<br>
   --- | ---
   ``` -b ```,``` --branch <string>``` | View a specific branch of repository,
   ``` -w ```,``` --web``` | Open a repository in the browser
+<br>
+
+### <a id=issues></a> **Managing Issues**
+
+```gh issue create [flag]``` : create an issue
+
+  Options | Descriptions
+  --- | ---
+  ```-t```, ```title <string>```| Supply a title
+  ```-l```, ```label <name>``` | Add labels by name
+  ```-a```, ```assignee <login>``` | Assigne People by their login? Use "@me" to self-assign
+
+  **Example for** : ``` gh issue create ``` : 
+
+  ![gh_Issue_Create_ex](assets/Use_img/Issue_Create.png)
+
+  **Example for** : ``` gh issue create [flags] ``` : 
+
+  ![gh_issue_Create_with_flags_ex](gh_issue_create_flag.png)
+
+
+
 
 
