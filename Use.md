@@ -108,6 +108,20 @@ Enter <code> gh repo create </code> to create a repository.<br>
 
 ![gh_issue_list_with flag](assets/Use_img/gh_issue_list.png)
 
+- ```gh issue status``` : Show status of relevant issues
+```gh issue view {<number> | ur>} [flags]``` : view a specific issue
 
+Options | Description
+ --- | ---
+ ```-c```,```--comments``` | View issue comments
 
+**Example for** : ```gh issue status``` :
+
+![gh_issue_status](assets/Use_img/gh_Issue_status.png)
+
+```issue close {<number> | <url>} [flags]``` : Close issue
+Options | Description
+ ---| ---
+ ```-c```, ``` --comment <string> ``` | Leave a closing comment
+ ```-r```, ``` --reason <string>``` | Reason for closing
 
