@@ -125,3 +125,40 @@ Options | Description
  ```-c```, ``` --comment <string> ``` | Leave a closing comment
  ```-r```, ``` --reason <string>``` | Reason for closing
 
+<br>
+
+### <a id=pr></a>**Managing pull requests**
+
+- ```gh pr create [flags] ```: create a pull request
+
+Options | Description
+ --- | ---
+ ```-B```, ``` --base <branch>``` | The branch into which you want your code merged.
+ ```-f```, ``` --fill ``` | Use commit info for title and body 
+ ```-l```, ``` --label <name> ``` | add labels by name
+
+**Example for** : ``` gh pr create```: 
+
+![Pr_create](assets/Use_img/Pr_Create.png)
+
+**Example for** : ``` gh pr create [flag] ```:
+
+![Pr_create_flag](Pr_create_flag.png)
+
+```gh pr list [flags]``` : List pull request
+
+Options | Description 
+ --- | ---
+```-a ```,```--assignee <string>``` | Filter by assigne
+```-A```, ``` -- author <string> ``` | Filter by author
+```-s```, ```--state <string> (default "open")``` | Filter by state : {open\|closed\|merged\|all}
+```-l```,```--label <strings>``` | Filter by label
+
+**Example for** : ```gh pr list ```: 
+
+![gh_pr_list](assets/Use_img/gh_pr_list.png)
+
+**Example for** : ```gh pr list [flag]``` :
+
+![gh_pr_list_flag](gh_pr_list_flag.png)
+
