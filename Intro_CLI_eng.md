@@ -1,8 +1,18 @@
+- Introduction
+   - [Difference between Github CLI and Git on the command line](#diff)
+   - [Why use Github CLI ?](#why)
+   - [How to install Github CLI ?](#how)
+   - [Configuration](#conf)
+- [CheatSheet](./README.md)
+- [Installation](./installCLI.md)
+- [Uses](./Use.md)
+
 # Introduction to GitHub CLI
 
 GitHub CLI is a command-line tool meant to help you use github directly from your terminal. With CLI you can use every feature available on github, but faster and more efficiently. CLI helps you stay on track and avoiding context switching (loss of focus).
 
-### *What's the difference between GitHub CLI and Git on the command line ?*
+
+### <a id=diff></a>*What's the difference between GitHub CLI and Git on the command line ?*
 
 The Github command line interface (github CLI) allows you to work with a local or remote repository. The remote repository may be hosted on GitHub or it may be hosted by another service.
 
@@ -16,7 +26,7 @@ GitHub CLI (gh) is specifically designed to work with GitHub. It allows the use 
 
 - Run, view, and list workflows
     
-### *Why use Github CLI ?*
+### <a id=why></a>*Why use Github CLI ?*
 
    **Increased productivity**: complete common tasks using less commands and without quitting your terminal.
 
@@ -24,7 +34,7 @@ GitHub CLI (gh) is specifically designed to work with GitHub. It allows the use 
 
 **Customisation and extensions**: Extend CLI functionnality with aliases for custom commands.
 
-## How to install Github CLI ?
+## <a id=how></a>How to install Github CLI ?
 
 **Windows**
 
@@ -82,7 +92,7 @@ with pacman
 ```gh --version```    
 
 
-## Configuration
+## <a id=conf></a>Configuration
 GitHub Authentication
 
 To connect to your Github account through the commande line, use the following command :
