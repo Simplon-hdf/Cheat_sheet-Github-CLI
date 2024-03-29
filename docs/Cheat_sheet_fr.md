@@ -2,14 +2,26 @@
 
 <p align="center"><img src ="../assets/ghcli.png"/></p>
 
+## Table des matières
+
+- [Intoduction](./Intro_CLI_fr)
+- CheatSheet
+    - [Authentfication](#auth)
+    - [Gestion des dépôt](#depo)
+    - [Gestion des issues](#issues)
+    - [Gestion des pull requests](#pr)
+    - [Gestion des workflows](#workflows)
+- [Installation](./installCLI.md)
+- [Uses](./Use.md)
+
 # Cheat-sheet des commandes ```gh```
 
-### **authentification**
+### <a id=auth></a>**authentification**
 
 - ```gh auth login``` : Se connecter à un compte GitHub 
 - ```gh auth logout``` : Retirer l'authentification à un compte GitHub
 
-### **Gestion des dépôt**
+### <a id=depo></a>**Gestion des dépôt**
 
 - ```gh repo create [<name>] [flags]``` : Créer un dépôt
 
@@ -30,7 +42,7 @@
     ```-w```, ``` --web``` | Ouvrir un dépôt dans l'explorateur web
 <br>
 
-### **Gestion des issues**
+### <a id=issues></a>**Gestion des issues**
 
 - ```gh issue create [flags]``` : Créer une issue
 
@@ -71,7 +83,7 @@
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
 <br>
 
-### **Gestion des pull requests**
+### <a id=pr></a>**Gestion des pull requests**
 
 - ```gh pr create [flags]``` : Créer une pull request
 
@@ -116,7 +128,7 @@
     ```-c```, ``` --comment <string>``` | Laisser un commentaire de réouverture
 <br>
 
-### **Managing workflows**
+### <a id=workflows>**Gestion des workflows**
 
 - ```gh workflow list [flags]``` : Lister les fichier workflow , cachant les désactiver par défaut
 
