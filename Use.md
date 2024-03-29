@@ -40,4 +40,20 @@ Enter <code> gh repo create </code> to create a repository.<br>
 + ```gh repo clone [<repository>] [<directory>]``` : Clone a repository
 + ```gh repo view [<repository>] [flag]``` : view a repository
 
+**Example for** : ```gh repo fork```
+
+![Repo Fork](assets/Use_img/Gh_fork.png) 
+
+**Example for** : ```gh repo fork cli/cli``` : a flags to fork and clone directly
+![Repo Fork & Clone](assets/Use_img/Repo_Fork_&_Clone.png)
+
+**Example for** : ```gh repo clone``` 
+![Repo Clone](assets/Use_img/Repo_Clone.png)
+
+
+  Options | Descriptions
+  --- | ---
+  ``` -b ```,``` --branch <string>``` | View a specific branch of repository,
+  ``` -w ```,``` --web``` | Open a repository in the browser
+
 
