@@ -2,14 +2,21 @@
 
 <p align="center"><img src ="assets/ghcli.png"/></p>
 
+## Table of contents
+
+- CheatSheet
+    - [Authentication](#auth)
+    - [Managing repositories](#repo)
+    - [Managing issues](#issues)
+
 # Cheat-sheet of ```gh``` commands
 
-### **authentication**
+### <a id=auth></a>**authentication**
 
 - ```gh auth login``` : Connect to a github account <br>
 - ```gh auth logout``` : Remove authentication for a github account
 
-### **Managing repositories**
+### <a id=repo></a>**Managing repositories**
 
 - ```gh repo create [<name>] [flags]``` : Create a repository
 
@@ -30,7 +37,7 @@
     ```-w```, ``` --web``` | Open a repository in the browser
 <br>
 
-### **Managing issues**
+### <a id=issues></a>**Managing issues**
 
 - ```gh issue create [flags]``` : Create an issue
 
@@ -71,7 +78,7 @@
     ```-c```, ``` --comment <string>``` | Leave a reopening comment
 <br>
 
-### **Managing pull requests**
+### <a id=pr></a>**Managing pull requests**
 
 - ```gh pr create [flags]``` : Create an pull request
 
@@ -116,7 +123,7 @@
     ```-c```, ``` --comment <string>``` | Leave a reopening comment
 <br>
 
-### **Managing workflows**
+### <a id=workflows></a>**Managing workflows**
 
 - ```gh workflow list [flags]``` : List workflow files, hiding disabled workflows by default
 
