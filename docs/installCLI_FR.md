@@ -1,10 +1,10 @@
 # Comment installer Github CLI sur différents systèmes d'exploitation
 
 ## Systèmes d'exploitation
-- [Linux](#Lin)
-- [Windows](#win)
-- [macOS](#mac)
-### <a id=Lin></a>**Installation de gh sur Linux et BSD**
+- [Linux](#installation-de-gh-sur-linux-et-bsd)
+- [Windows](#installation-de-gh-sur-windows)
+- [macOS](#macos)
+### Installation de gh sur Linux et BSD
 
 ---
 | **Linux**                                    | gestionnaire de paquets | Ligne de commande     |
@@ -57,7 +57,7 @@ Pour installer à partir de la source: ```cd /usr/pkgsrc/net/gh && make package-
 **OpenBSD**
 En cours ou dans des versions commençant à partir de 7.0, les utilisateurs d'OpenBSD peuvent s'installer à partir des paquets: ```pkg_add github-cli```
 
-### <a id="Win"></a>**Installation de gh sur Windows**
+### **Installation de gh sur Windows**
 
 ---
 
