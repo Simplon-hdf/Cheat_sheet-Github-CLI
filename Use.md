@@ -33,7 +33,7 @@ gh auth login <flag>
   ---| ---
 ```gh auth login --hostname github.example.com --web```| Authentificate without additional command
 
-<img src="assets/Use_img/Auth_exemple.png" alt="Auth_exemple" width="" >
+<img src="assets/Use_img/Auth_exemple.png" alt="Auth_exemple" >
 
 <br>
 You can enter <code>gh auth logout</code> to log out.
