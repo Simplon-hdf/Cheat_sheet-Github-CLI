@@ -20,7 +20,7 @@ GitHub CLI (**gh**) is a command-line tool that brings GitHub functionality to y
 
 ## Basic command CLI
 
-### <a id=auth></a> **Authentification :**
+### <a id=auth></a> **Authentication :**
 
 Enter <code>gh auth login</code> and follow the prompts to log in using your GitHub ID
 
