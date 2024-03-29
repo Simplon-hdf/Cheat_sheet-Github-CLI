@@ -5,10 +5,10 @@
 - [Installation](./installCLI_fr.md)
 - BaseUse
     - [Authentification](#auth)
-    - [Managing repositories](#repo)
-    - [Managing issues](#issues)
-    - [Managing pull requests](#pr)
-    - [Managing workflows](#workflows)
+    - [Gestion des dépôt](#repo)
+    - [Gestion des issues](#issues)
+    - [Gestion des pull requests](#pr)
+    - [Gestion des workflows](#workflows)
 
 
 
@@ -38,7 +38,7 @@ gh auth login <flag>
 <br>
 Vous pouvez entrer cette commande <code>gh auth logout</code> pour vous déconnecter.
 
-### <a id=repo></a> **Managing Repository :**
+### <a id=repo></a> **Gestion des dépôts** :
 
 Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 ``` gh repo create ``` : créer un dépot 
@@ -73,9 +73,9 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
   ``` -w ```,``` --web``` | Ouvrir le dépôt dans le navigateur
 <br>
 
-### <a id=issues></a> **Gestion des problèmes**
+### <a id=issues></a> **Gestion des issues**
 
-  - ```gh issue create [flag]``` : créer un problème
+  - ```gh issue create [flag]``` : créer une issue
 
   Options | Description
   --- | ---
@@ -91,7 +91,7 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![gh_issue_Create_with_flags_ex](../assets/Use_img/gh_issue_create_flag.png)
 
-  - ```gh issue list [flag]```: Listes les problèmes
+  - ```gh issue list [flag]```: Listes les issues
 
   Options | Description
   --- | ---
@@ -108,8 +108,8 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![gh_issue_list_with flag](../assets/Use_img/gh_issue_list.png)
 
-  - ```gh issue status``` : Affiche l'état des problèmes pertinents
-  ```gh issue view {<number> | ur>} [flags]``` : Montre les problèmes spécifiques
+  - ```gh issue status``` : Affiche l'état des issues pertinents
+  ```gh issue view {<number> | ur>} [flags]``` : Montre les issues spécifiques
 
   Options | Description
   --- | ---
@@ -119,7 +119,7 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![gh_issue_status](../assets/Use_img/gh_Issue_status.png)
 
-  ```issue close {<number> | <url>} [flags]``` : Ferme le problème
+  ```issue close {<number> | <url>} [flags]``` : Ferme l'issue
 
   Options | Description
   ---| ---
@@ -128,9 +128,9 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   <br>
 
-### <a id=pr></a>**Gestion des requêtes d'envoi**
+### <a id=pr></a>**Gestion des pulls requests**
 
-  - ```gh pr create [flags] ```: Créer une requête d'envoi
+  - ```gh pr create [flags] ```: Créer une pull request
 
   Options | Description
   --- | ---
@@ -146,7 +146,7 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![Pr_create_flag](../assets/Use_img/Pr_create_flag.png)
 
-  - ```gh pr list [flags]``` : Liste les requêtes d'envoi
+  - ```gh pr list [flags]``` : Liste les pulls requests
 
   Options | Description 
   --- | ---
@@ -163,8 +163,8 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![gh_pr_list_flag](../assets/Use_img/gh_pr_list_flag.png)
 
-  - ```gh pr status``` : Affiche l'état des requêtes d'envoi relevé
-  - ```gh pr view {<number> | <url> | <branch>} [flags]``` : Montre les requête d'envoi spécifique
+  - ```gh pr status``` : Affiche l'état des pulls requests relevé
+  - ```gh pr view {<number> | <url> | <branch>} [flags]``` : Montre les pulls request spécifique
 
   Options | Description
   --- | ---
@@ -182,7 +182,7 @@ Entrer <code> gh repo create </code> pour créer un dépot distant.<br>
 
   ![gh_or_view_number](../assets/Use_img/gh_pr_view_number.png)
 
-### <a id=workflows></a>**Gestion du Workflow**
+### <a id=workflows></a>**Gestion du workflow**
 
   - ```gh workflow list [flag]``` : Listé les fichiers du workflow, les workflow ne sont pas caché par défaut
 
