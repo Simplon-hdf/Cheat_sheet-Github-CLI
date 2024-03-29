@@ -29,7 +29,7 @@ gh auth login <flag>
 ```
 
 
-  Options  |  effect 
+  Options  |  Description 
   ---| ---
 ```gh auth login --hostname github.example.com --web```| Authentificate without additional command
 
@@ -45,7 +45,7 @@ Enter <code> gh repo create </code> to create a repository.<br>
 
 <img src="assets/Use_img/Gh_repo_create.png" alt="Gh_repo_create">  
 
-  Options | Descriptions
+  Options | Description
   --- | ---
   ```-p```,```--template <repository>```|Make the new repository based on template repository.
   ```-t```,```team <name>```| The name of the organization team to be granted access
@@ -67,7 +67,7 @@ Enter <code> gh repo create </code> to create a repository.<br>
 ![Repo Clone](assets/Use_img/Repo_Clone.png)
 
 
-  Options | Descriptions
+  Options | Description
   --- | ---
   ``` -b ```,``` --branch <string>``` | View a specific branch of repository,
   ``` -w ```,``` --web``` | Open a repository in the browser
@@ -95,70 +95,106 @@ Enter <code> gh repo create </code> to create a repository.<br>
 
   Options | Description
   --- | ---
-```-a```, ``` --assignee <string>``` | Filter by assignee
-```-A```, ``` --author <string>``` | Filter by author
-```-s```, ``` --state <string> (default "open")``` | Filter by state: {open\|closed\|all}
-```-l```, ``` --label <strings>``` | Filter by label
+  ```-a```, ``` --assignee <string>``` | Filter by assignee
+  ```-A```, ``` --author <string>``` | Filter by author
+  ```-s```, ``` --state <string> (default "open")``` | Filter by state: {open\|closed\|all}
+  ```-l```, ``` --label <strings>``` | Filter by label
 
-**Example for** : ``` gh issue list ``` :
+  **Example for** : ``` gh issue list ``` :
 
-![gh_issue_list](assets/Use_img/gh_issue_list_ex.png)
+  ![gh_issue_list](assets/Use_img/gh_issue_list_ex.png)
 
-**Example for** : ``` gh issue list [flags] ``` :
+  **Example for** : ``` gh issue list [flags] ``` :
 
-![gh_issue_list_with flag](assets/Use_img/gh_issue_list.png)
+  ![gh_issue_list_with flag](assets/Use_img/gh_issue_list.png)
 
-- ```gh issue status``` : Show status of relevant issues
-```gh issue view {<number> | ur>} [flags]``` : view a specific issue
+  - ```gh issue status``` : Show status of relevant issues
+  ```gh issue view {<number> | ur>} [flags]``` : view a specific issue
 
-Options | Description
- --- | ---
- ```-c```,```--comments``` | View issue comments
+  Options | Description
+  --- | ---
+  ```-c```,```--comments``` | View issue comments
 
-**Example for** : ```gh issue status``` :
+  **Example for** : ```gh issue status``` :
 
-![gh_issue_status](assets/Use_img/gh_Issue_status.png)
+  ![gh_issue_status](assets/Use_img/gh_Issue_status.png)
 
-```issue close {<number> | <url>} [flags]``` : Close issue
-Options | Description
- ---| ---
- ```-c```, ``` --comment <string> ``` | Leave a closing comment
- ```-r```, ``` --reason <string>``` | Reason for closing
+  ```issue close {<number> | <url>} [flags]``` : Close issue
 
-<br>
+  Options | Description
+  ---| ---
+  ```-c```, ``` --comment <string> ``` | Leave a closing comment
+  ```-r```, ``` --reason <string>``` | Reason for closing
+
+  <br>
 
 ### <a id=pr></a>**Managing pull requests**
 
-- ```gh pr create [flags] ```: create a pull request
+  - ```gh pr create [flags] ```: create a pull request
 
-Options | Description
- --- | ---
- ```-B```, ``` --base <branch>``` | The branch into which you want your code merged.
- ```-f```, ``` --fill ``` | Use commit info for title and body 
- ```-l```, ``` --label <name> ``` | add labels by name
+  Options | Description
+  --- | ---
+  ```-B```, ``` --base <branch>``` | The branch into which you want your code merged.
+  ```-f```, ``` --fill ``` | Use commit info for title and body 
+  ```-l```, ``` --label <name> ``` | add labels by name
 
-**Example for** : ``` gh pr create```: 
+  **Example for** : ``` gh pr create```: 
 
-![Pr_create](assets/Use_img/Pr_Create.png)
+  ![Pr_create](assets/Use_img/Pr_Create.png)
 
-**Example for** : ``` gh pr create [flag] ```:
+  **Example for** : ``` gh pr create [flag] ```:
 
-![Pr_create_flag](Pr_create_flag.png)
+  ![Pr_create_flag](assets/Use_img/Pr_create_flag.png)
 
-```gh pr list [flags]``` : List pull request
+  - ```gh pr list [flags]``` : List pull request
 
-Options | Description 
- --- | ---
-```-a ```,```--assignee <string>``` | Filter by assigne
-```-A```, ``` -- author <string> ``` | Filter by author
-```-s```, ```--state <string> (default "open")``` | Filter by state : {open\|closed\|merged\|all}
-```-l```,```--label <strings>``` | Filter by label
+  Options | Description 
+  --- | ---
+  ```-a ```,```--assignee <string>``` | Filter by assigne
+  ```-A```, ``` -- author <string> ``` | Filter by author
+  ```-s```, ```--state <string> (default "open")``` | Filter by state : {open\|closed\|merged\|all}
+  ```-l```,```--label <strings>``` | Filter by label
 
-**Example for** : ```gh pr list ```: 
+  **Example for** : ```gh pr list ```: 
 
-![gh_pr_list](assets/Use_img/gh_pr_list.png)
+  ![gh_pr_list](assets/Use_img/gh_pr_list.png)
 
-**Example for** : ```gh pr list [flag]``` :
+  **Example for** : ```gh pr list [flag]``` :
 
-![gh_pr_list_flag](gh_pr_list_flag.png)
+  ![gh_pr_list_flag](assets/Use_img/gh_pr_list_flag.png)
 
+  - ```gh pr status``` : Show status of relevant pull request
+  - ```gh pr view {<number> | <url> | <branch>} [flags]``` : View a specific pull request
+
+  Options | Description
+  --- | ---
+  ```-c```,```--comment <string>``` | Leave a reopening comment
+
+  **Example for** : ```gh pr status``` :
+
+  ![gh_pr_status](assets/Use_img/gh_pr_status.png)
+
+  **Example for** : ```gh pr view ``` : 
+
+  ![gh_pr_view](assets/Use_img/gh_pr_view.png)
+
+  **Example for** : ```gh pr view <number> ```:<br> but we can add other arguments like "Url" and "branch".
+
+  ![gh_or_view_number](assets/Use_img/gh_pr_view_number.png)
+
+### <a id=workflows></a>**Managing workflows**
+
+  - ```gh workflow list [flag]``` : List workflow files, hiding disabled workflows by default
+
+  Options | Descripstion
+  --- | ---
+  ```-a```, ```--all``` | Include disabled workflows
+
+  - ```gh workflow view [<workflow-id> | <workflow-name | <filename>] [flags]```: View the summary of a workflow
+  - ```gh workflow run [<workflow-id> | <workflow-name>]``` : execute a workflow
+  - ```gh workflow enable [<workflow-id> | <workflow-name>]``` : Enable a workflow, allowing it to be run
+  - ```gh workflow disable [<workflow-id> | <workflow-name>]``` : Disable a workflow, preventing it from running
+
+  **Example for** : ```gh workflow run [flag]``` :
+
+  ![gh_workflow_run_flag](assets/Use_img/gh_workflow_run_flag.png)
