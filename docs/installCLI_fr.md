@@ -2,7 +2,7 @@
 <img src="../assets/downloadpict.png" alt="Auth_exemple" width="20%" >
 <img src="../assets/installation&apos;slogo.jpg" alt="Auth_exemple" width="25%" >
 
-
+**```gh```  est GitHub sur la ligne de commande. Il apporte des demandes d'attraction, des questions et d'autres concepts de GitHub au terminal à côté de l'endroit où vous travaillez déjà avec gitet votre code.**
 ## Systèmes d'exploitation
 - [Linux](#installation-de-gh-sur-linux-et-bsd)
 - [Windows](#installation-de-gh-sur-windows)
@@ -94,3 +94,4 @@ Pour vérifier la version installée de gh, utilisez cette ligne de commande:
 Pour mettre à niveau la version de gh, il faut utiliser la commande  :  ```update```
 
 Exemple : ![commande update](/assets/Commandupdate.png)
+
