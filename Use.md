@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Intoduction](./Intro_CLI_eng)
-- [README](./README.md)
+- [CheatSheet](./README.md)
 - [Installation](./installCLI.md)
 - BaseUse
     - [Authentication](#auth)
@@ -20,7 +20,7 @@ GitHub CLI (**gh**) is a command-line tool that brings GitHub functionality to y
 
 ## Basic command CLI
 
-### <a id=auth></a> **Authentification :**
+### <a id=auth></a> **Authentication :**
 
 Enter <code>gh auth login</code> and follow the prompts to log in using your GitHub ID
 
@@ -33,7 +33,7 @@ gh auth login <flag>
   ---| ---
 ```gh auth login --hostname github.example.com --web```| Authentificate without additional command
 
-<img src="assets/Use_img/Auth_exemple.png" alt="Auth_exemple" width="" >
+<img src="assets/Use_img/Auth_exemple.png" alt="Auth_exemple" >
 
 <br>
 You can enter <code>gh auth logout</code> to log out.
