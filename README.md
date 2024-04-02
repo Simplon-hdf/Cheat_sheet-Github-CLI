@@ -11,7 +11,7 @@
     - [Managing issues](#issues)
     - [Managing pull requests](#pr)
     - [Managing workflows](#workflows)
-- [Installation](./installCLI.md)
+- [Installation](./installCLI_eng.md)
 - [Uses](./Use.md)
 
 # Cheat-sheet of ```gh``` commands
