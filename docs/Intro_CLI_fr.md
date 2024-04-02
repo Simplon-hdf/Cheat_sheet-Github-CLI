@@ -3,9 +3,9 @@
    - [Pourquoi utiliser Github CLI?](#why)
    - [Comment installer github CLI ?](#how)
    - [Configuration](#conf)
-- [CheatSheet](./README.md)
-- [Installation](./installCLI.md)
-- [Uses](./Use.md)
+- [CheatSheet](./Cheat_sheet_fr.md)
+- [Installation](./installCLI_fr.md)
+- [Uses](./Use_fr.md)
 
 # Introduction à GitHub CLI
 
